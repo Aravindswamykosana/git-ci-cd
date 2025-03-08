@@ -20,7 +20,11 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '11'
+<<<<<<< HEAD
           distribution: 'adoptium:'
+=======
+          distribution: 'adoptium'
+>>>>>>> 85f79de11ea9a0d0aa052389a87ad4e0daace689
 
       - name: Build with Gradle
         run: |
