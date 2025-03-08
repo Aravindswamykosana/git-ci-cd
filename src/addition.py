@@ -1,14 +1,10 @@
-# Python program to add two predefined numbers
+# addition.py
 
-# Function to add two numbers
-def add_numbers(a, b):
+def add(a, b):
     return a + b
 
-# Predefined numbers
-num1 = 5
-num2 = 7
-
-# Calling the function and displaying the result
-result = add_numbers(num1, num2)
-print("The sum of", num1, "and", num2, "is:", result)
-
+# Test case for the add function
+def test_add():
+    assert add(2, 3) == 5
+    assert add(10, 20) == 30
+    assert add(-1, 1) == 0
